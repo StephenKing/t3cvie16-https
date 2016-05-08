@@ -74,7 +74,7 @@ _Optionally:_ saves your / your client's butt / reputation, as it helps to preve
 
 * Our device/software vendor dictates this _CA bundle_ for us.
 * Some hundreds certificate authorities are trusted (does not mean: _trustful_) by our OSs/UAs.
-* If a web site uses a certificate signed by _any_ of these CAs, everything is fine^{TM} .red.bold[*]
+* If a web site uses a certificate signed by _any_ of these CAs, everything is fine™ .red.bold[*]
 
 * This solves the _authenticity_ problem (we know, with whom we're talking)
 
@@ -252,7 +252,7 @@ class: center, middle, inverse
   ```
 * Why?
   * You follow a link to `http://example.com` through a public hotspot
-  * Everybody sees your cookies cookies.red[*]
+  * Everybody sees your cookies.red[*]
   * MITM can redirect you to arbitrary sites
   * MITM can inject arbitrary code / drive-by downloads
 * HSTS would prevent connecting via `http://` and automatically ugprade to secure connection.  
