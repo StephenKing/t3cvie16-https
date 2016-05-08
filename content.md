@@ -388,9 +388,9 @@ https://report-uri.io/account/reports/csp/
 
     ```
     Public-Key-Pins: pin-sha256="cUPcTAZWKaASuY...oBAkE3h2+soZS7sWs=";
-                   pin-sha256="M8HztCzM3elUxk...";
-                   max-age=5184000;
-                   includeSubDomains"
+                     pin-sha256="M8HztCzM3elUxk...";
+                     max-age=5184000;
+                     includeSubDomains"
     ```
 
 * Again, there is `Public-Key-Pins`**`-Report-Only`**:
@@ -466,6 +466,21 @@ class: middle, center
 # While you're at it..
 
 Enable HTTP/2!
+
+---
+class: center, middle
+
+# Summary
+
+.large[Enforce encrypted connections!]
+<br>It makes a better world.
+
+.large[Use the available tools!]
+<br>They help to validate your setup.
+
+.large[Set security-relevant headers!]
+<br> on web server or in application
+<br>(only CSP & HPKP are hard to implement)
 
 ---
 class: center, middle, inverse
